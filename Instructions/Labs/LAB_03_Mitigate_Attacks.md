@@ -84,7 +84,7 @@ Nesta tarefa, você simulará um ataque à máquina virtual WIN1 (executando um 
 
 1. Para executar o script, no **Windows PowerShell (Administrador)** navegue até a pasta *\Users\Admin\Desktop\Allfiles*, digite *.\AttackScript.ps1* e pressione **Enter** para executá-lo. Em seguida, digite **R** e pressione **Enter** para *Executar uma vez*.
 
-1. O script produzirá várias linhas de saída e uma mensagem informando que ele *Falhou ao resolver controladores de domínio no domínio*. Alguns segundos depois, o aplicativo *Bloco de Notas* será aberto. Um código de ataque simulado será injetado no Bloco de Notas. Mantenha a instância do Bloco de Notas gerada automaticamente aberta para experimentar o cenário completo. O código de ataque simulado tentará se comunicar com um endereço IP externo (simulando um servidor C2).
+1. O script produzirá várias linhas de saída e uma mensagem informando que ele *Falhou ao resolver controladores de domínio no domínio*. Alguns segundos depois, o aplicativo *Bloco de Notas* será aberto. Um código de ataque simulado será injetado no Bloco de Notas (a página do Bloco de Notas ficará em branco). Mantenha a instância do Bloco de Notas gerada automaticamente aberta para experimentar o cenário completo. O código de ataque simulado tentará se comunicar com um endereço IP externo (simulando um servidor C2).
 
 ### Tarefa 4: Investigar o ataque simulado como um único incidente
 
